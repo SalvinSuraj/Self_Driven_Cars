@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="">
+ 
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="form.css"> 
+    <title>Payment Form </title>
+</head>
+
+ 
+<body>
+    
+    <div class="container">
+    <form acton="form.php" method="POST">
+        <h1>A.I.,The Future of Technology BootCamp</h1>
+        <hr>
+        <h2>Contact Information</h2>
+        <h3 class="required">Requird Fields are followed by</h3>
+        <p >
+          <h3 class="required">Name:</h3>   <input type="text" name="name" placeholder="Example:Salvin Suraj" required>
+        </p>
+        <fieldset>
+            <legend ><h3 class="required">Gender</h3> </legend>
+            <p>
+                Male <input type="radio" name="gender" id="Male" required>
+                Female<input type="radio" name="gender" id="Female" required>
+                Others<input type="radio" name="gender" id="Others" required>
+            </p>
+        </fieldset>
+        <p>
+            <legend><h3>Address</h3></legend>
+            <textarea name="address" id="address" cols="60" rows="20"></textarea>
+        </p>
+        <p> <h3>Phone Number:</h3><input type="tel" name="phone" id="phone" maxlength="10" required></p>
+        <p>
+           <h3 class="required">Email:</h3>  <input type="email" name="email" id="email"  placeholder="Example:salvinsuraj@gmail.com "required>
+        </p>
+        <p><h3>Pincode:</h3><input type="number" name="pincode" id="pincode" required></p>
+        
+        <input type="submit" value="Submit">
+        
+    </form>
+</div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+h1{
+    color:chartreuse;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    margin-top: 2px;
+    
+}
+p
+{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 5%;
+
+  }
+.hi
+{
+    margin-left: 120pt;
+}
+.hi2
+{
+    margin-left: 160pt;
+}

@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Courier New', Courier, monospace;
+    margin: 15pt 30px;
+    font-size: 17px;
+    padding: 8px;
+    
+}
+.container{
+    background-color: #000000;
+    border: 5px solid chartreuse;
+    border-radius: 20px;
+    padding: 5px 20px 15px 20px;
+}
+ 
+input[type="text"],
+input[type="password"],
+input[type="number"],
+select,
+textarea{
+     width: 400px ;
+     padding: 12px;
+     border-radius: 10px;
+     border: none;
+    }
+h1,h2
+{
+    text-align: center;
+    color: chartreuse;
+    
+}
+h3{
+    color: chartreuse;
+}
+.required::after {
+    content:"*";
+    color: red;
+    }
+    input[type="submit"]{
+        background-color: rgb(30, 214, 55);
+        padding:12px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        width: 100px;
+    }

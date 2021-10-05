@@ -1,0 +1,100 @@
+h1{
+    color:chartreuse;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 250%;
+    margin-top: 2px;
+    
+}
+p
+{
+    color:rgb(255, 255, 255);
+    text-align: center;
+    margin: auto;
+    font-family: 'Courier New', Courier, monospace;
+}
+body {
+    background-color: rgb(0, 0, 0);
+    margin: 5%;
+
+  }
+
+h2
+{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    color:chartreuse;
+}
+.abc
+{
+    text-align: center;
+    border: 7px solid rgb(1, 255, 43);
+    color: chartreuse;
+    
+    margin-left: auto;
+    margin-right: auto;
+    
+    
+}
+.tesla
+{
+    border: 2px solid chartreuse;
+    border-radius: 50px;
+    
+}
+.hide1{   
+    display: none;
+}
+.reveal1{
+    cursor: pointer;
+
+}
+.reveal1:hover,.reveal2:hover,.reveal3:hover,.reveal4:hover{
+    color: yellow;
+}
+.hide2{
+    display: none;
+}
+.reveal2{
+    cursor: pointer;
+}
+.hide3{
+    display: none;
+}
+.reveal3{
+    cursor: pointer;
+}
+.hide4{
+    display: none;
+}
+.reveal4{
+    cursor: pointer;
+}
+.navbar navbar-expand-lg navbar-light bg-black:hover
+{
+    color: yellow;
+}
+.focus:hover{
+    border: 70px solid #000;
+    border-radius:90%;
+  
+    transition: all 2s ease; 
+    }
+.tesla:hover{
+     border: 70px solid #000;
+    border-radius:50%;
+              
+    transition: all 2s ease; 
+    
+    }
+.nav-link:hover{
+    background-color: rgb(255, 255, 255);
+    color-adjust: black;
+    transition: cubic-bezier(1, 0, 0, 1);
+
+}
+video {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    }
