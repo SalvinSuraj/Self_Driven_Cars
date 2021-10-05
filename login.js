@@ -6,11 +6,11 @@ function validate()
     if(username == "admin" || password == "user")
     {  
       
-        cy.window.location="http://sidanmor.com";}
+        alert("Login Successful")}
        
     else
     {
-        //  alert("Login Failed");
+          alert("Login Failed");
          
         
         
