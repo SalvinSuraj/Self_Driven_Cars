@@ -6,7 +6,9 @@ function validate()
     if(username == "admin" || password == "user")
     {  
       
-        alert("Login Successful")}
+        
+        window.location.replace("form-save.txt");
+}
        
     else
     {
