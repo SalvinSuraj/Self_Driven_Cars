@@ -16,13 +16,17 @@ p
 body {
     background-color: rgb(0, 0, 0);
     margin: 5%;
+    text-align: center;
 
   }
 .hi
 {
-    margin-left: 120pt;
+    margin:auto;
+    position: relative;
 }
 .hi2
 {
-    margin-left: 160pt;
+   position: relative;
+   margin: auto; 
+  
 }
